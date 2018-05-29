@@ -74,10 +74,6 @@ class MusicLibraryController
       if i+1 == input.to_i
         puts "Playing #{song.name} by #{song.artist.name}"
       end
-      if Song.all.sort_by
-      
-
-    end
   end
   
 end
